@@ -10,7 +10,7 @@ namespace RSLTest.API.Logic
         {
             ActiveShift shift = new ActiveShift();
 
-            bool actual = shift.IsActiveShift(DateTime.Now);
+            //bool actual = shift.IsActiveShift(DateTime.Now);
         }
     }
 }

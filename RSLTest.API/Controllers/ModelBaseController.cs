@@ -15,9 +15,7 @@ namespace RSLTest.API.Controllers
     {
         protected abstract string BaseUrl { get; }
 
-        // GET: api/<ModelController>
-        [HttpGet]
-        public async Task<ActionResult<List<T>>> Get()
+        protected List<T> GetModelList()
         {
             List<T> results = new List<T>();
             HttpClient client = new HttpClient();
@@ -27,6 +25,15 @@ namespace RSLTest.API.Controllers
                 results = DeseializeGetAll(response);
             }
 
+            return results;
+        }
+
+        // GET: api/<ModelController>
+        [HttpGet]
+        public async Task<ActionResult<List<T>>> Get()
+        {
+
+            List<T> results = GetModelList();
             return Ok(results);
         }
 

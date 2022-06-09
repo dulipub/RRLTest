@@ -18,5 +18,11 @@ namespace RSLTest.API.Models
 
         public int TotalLikes { get; set; }
 
+        public override string ToString()
+        {
+
+            return $"{Title}, {ImageUrl}, {CreatedTime}, {AuthorName}, {TotalLikes}";
+        }
+
     }
 }

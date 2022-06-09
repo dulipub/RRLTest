@@ -22,3 +22,5 @@ packages
 src/.vs/*
 /.vs/VSWorkspaceState.json
 /.vs/ProjectSettings.json
+/.vs
+/.vs/*
