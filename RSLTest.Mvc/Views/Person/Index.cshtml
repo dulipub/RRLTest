@@ -1,0 +1,31 @@
+﻿@model IList<PersonViewModel>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>This is Person</h1>
+
+@if (ViewContext.ViewData.ModelState.ErrorCount > 0)
+{
+    <h1> Error!!</h1>
+}
+
+<table>
+    <thead>
+
+    </thead>
+    <tbody>
+        @foreach (PersonViewModel p in Model)
+        {
+            <tr>
+                <td>@p.FirstName</td>
+                <td>@p.Lastname</td>
+                <td><a asp-action="Single" asp-route-id="@p.Id">View More..</a></td>
+            </tr>
+        }
+    </tbody>
+
+</table>
+
+

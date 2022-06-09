@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32228.343
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RSLTest.Mvc", "RSLTest.Mvc\RSLTest.Mvc.csproj", "{2A9DC456-4CCB-4F03-804B-0FFE200A5875}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RSLTest.API", "RSLTest.API\RSLTest.API.csproj", "{84A96F08-63D8-42CF-9F8B-AA6743301385}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2A9DC456-4CCB-4F03-804B-0FFE200A5875}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A9DC456-4CCB-4F03-804B-0FFE200A5875}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A9DC456-4CCB-4F03-804B-0FFE200A5875}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A9DC456-4CCB-4F03-804B-0FFE200A5875}.Release|Any CPU.Build.0 = Release|Any CPU
+		{84A96F08-63D8-42CF-9F8B-AA6743301385}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84A96F08-63D8-42CF-9F8B-AA6743301385}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84A96F08-63D8-42CF-9F8B-AA6743301385}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84A96F08-63D8-42CF-9F8B-AA6743301385}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3353D03B-9FE6-4358-A101-DE37210B2785}
+	EndGlobalSection
+EndGlobal

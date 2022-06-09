@@ -1,0 +1,28 @@
+﻿@model IList<PostViewModel>
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>This is Posts</h1>
+
+@if (ViewContext.ViewData.ModelState.ErrorCount > 0)
+{
+    <h1> Error!!</h1>
+}
+
+<table>
+    <thead>
+
+    </thead>
+    <tbody>
+        @foreach (PostViewModel p in Model)
+        {
+            <tr>
+                <td>@p.Title</td>
+                <td>@p.TotalLikes</td>
+                <td><a asp-action="Single" asp-route-id="@p.Id">View More..</a></td>
+            </tr>
+        }
+    </tbody>
+
+</table>
