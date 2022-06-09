@@ -1,3 +1,6 @@
 # RRLTest
 
-2 Projects and the Logic test
+Contains :
+Logic folder - The logic test.
+Web API
+MVC project
